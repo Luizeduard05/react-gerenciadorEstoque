@@ -1,0 +1,34 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 12vh;
+}
+
+.navbar-links,
+.navbar-title,
+.navbar-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links {
+    gap: 30px;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
